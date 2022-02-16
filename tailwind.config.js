@@ -8,17 +8,14 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'blue': '#1fb6ff',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+      'primary': 'rgba(83, 25, 249, 1)',
+      'ost': 'rgba(83, 25, 249, 0.05)',
+      'white': '#FFFF',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      mulish: ['Mulish', 'sans-serif'],
     },
     container: {
       center: true,
@@ -28,6 +25,9 @@ module.exports = {
       spacing: {
         '128': '32rem',
         '144': '36rem',
+      },
+      boxShadow: {
+        'meown': '0px 0px 40px 0px rgba(234,234,234,0.7)',
       },
       borderRadius: {
         '4xl': '2rem',
